@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body
+{
+    background-color: rgba(4, 15, 12, 1);
+    font-family: "Fredoka One";
+}
+
+#siteHeader
+{
+    padding-left: 16px;
+    width: 480px;
+    font-family: "Fredoka One";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#siteHeader #hName
+{
+    font-size: 36px;
+    color: rgba(124, 191, 149, 1);
+}
+
+#siteHeader #hVersion
+{
+    font-size: 18px; 
+    color: rgba(51, 102, 92, 1);
+}
+
+#siteGame
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    text-align: center;
+
+}
+
+#gameWindow
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    max-height: 0;
+    text-align: center;
+    display: block;
+}
+
+/*#leftArrow
+{
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 24px solid;
+    border-bottom: 12px solid transparent;
+}
+
+#rightArrow
+{
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid;
+    border-bottom: 12px solid transparent;
+}*/
+
+img
+{
+    image-rendering: pixelated;
+}
+
+canvas
+{
+    align-self: center;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    transition: 0.5s;
+}
+
+button
+{
+    border: 8px solid rgba(124, 191, 149, 1);
+    border-radius: 0%;
+    color: rgba(124, 191, 149, 1);
+    background-color: rgba(51, 102, 92, 1);
+    padding: 8px 8px;
+    margin: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fredoka One";
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+button:hover
+{
+    border-radius: 8px;
+    font-size: 18px;
+}
