@@ -1,6 +1,11 @@
 # HtmEngine
-(2018) A project that I made in an attempt to make a basic 2D game engine.
+This was a small series of projects that I made in an attempt to make a basic 2D game engine in JavaScript. I had a lot of fun making these, and I would be more than happy to continue this concept later on.
 
-## Contents
-- Basic static collision
-- Basic character movement
+## Contents (Version 1)
+- Simple static collision
+- Gravity
+- Basic movement
+
+## Contents (Version 2)
+- Animation support
+- Class-like structure

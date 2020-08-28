@@ -1,21 +1,21 @@
 /*
-    htm_engine v1.0 
+    HtmEngine v1.0 
     Abner Martinez [2018]
 */
 
 // Configuration //
 
-/* Pixel Grid Sizing */
+// Pixel Grid Sizing //
 var PPUScale = 2.0; // Use to scale the size of the units.
 var pixelsPerUnit = 16; // Used to reference the size of a tile. (Use art size)
 var tile = PPUScale * pixelsPerUnit;
 
-/* Window Size */
+// Window Size //
 var wWidth = 320; // Sets the window width.
 var wHeight = wWidth * 0.75; // Sets the window height.
 var fps = 60; // Sets the refresh rate of the game.
 
-/* Game Core Config */
+// Game Core Config //
 var spriteImage = "ginIdle.png"; // Used to change what image the sprite uses.
 var showHitbox = true; // Used to determine if the game should show hitboxes.
 var speedMultiplier = 0.5; // A multiplier for the base speed.
